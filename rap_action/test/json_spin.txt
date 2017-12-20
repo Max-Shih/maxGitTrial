@@ -1,0 +1,14 @@
+{ "type": "do_rap_step", "step": {"type" : "step_run_seq", "name" : "spinning", "goal" : [
+{"type" : "step_base_goto_pos", "name" : "rotate_0_1", "goal" : [0.0,0.0,{"theta": 0.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_1_1", "goal" : [0.0,0.0,{"theta": 1.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_m1_1", "goal" : [0.0,0.0,{"theta": -1.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_2_1", "goal" : [0.0,0.0,{"theta": 2.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_m2_1", "goal" : [0.0,0.0,{"theta": -2.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_3_1", "goal" : [0.0,0.0,{"theta": 3.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_m3_1", "goal" : [0.0,0.0,{"theta": -3.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_4_1", "goal" : [0.0,0.0,{"theta": 4.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_m4_1", "goal" : [0.0,0.0,{"theta": -4.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_5_1", "goal" : [0.0,0.0,{"theta": 5.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_m5_1", "goal" : [0.0,0.0,{"theta": -5.0}]},
+{"type" : "step_base_goto_pos", "name" : "rotate_0_2", "goal" : [0.0,0.0,{"theta": 0.0}]}
+] } }

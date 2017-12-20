@@ -1,0 +1,15 @@
+{ "type": "do_rap_step", "step": {"type" : "step_run_seq", "name" : "celebrate", "goal" : [ 
+{"type" : "step_face_animate", "name" : "eyes_init_blink", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_arm_goto", "name" : "hand_up_1", "goal" : [{"ss": -0.368, "sy": -0.0, "sr": -1.45, "es": 1.2, "er": -0.517, "ws": 0.0, "wr": 1.45, "tr": 0.0, "duration": 2.0} ]}, 
+{"type" : "step_face_animate", "name" : "eyes_init_thinking", "goal" : ["#thinking"]}, 
+{"type" : "step_grip_close", "name" : "grip_close_1", "goal" : [40.0]},
+{"type" : "step_grip_open", "name" : "grip_open_1", "goal" : [50.0]} ,
+{"type" : "step_arm_goto", "name" : "hand_down_1", "goal" : [{"ss": 0.7, "sr": -1.45, "es": 1.45, "wr": 0.0, "duration": 1.5} ]}, 
+{"type" : "step_grip_close", "name" : "grip_close_2", "goal" : [40.0]},
+{"type" : "step_grip_open", "name" : "grip_open_2", "goal" : [50.0]} ,
+{"type" : "step_arm_goto", "name" : "hand_end", "goal" : [{"ss": 0.782, "er":-0.87, "ws":1.03, "duration": 2.0} ]}, 
+{"type" : "step_head_goto", "name" : "head_down_1", "goal" : [{"tilt": 0.6, "pan": 0.0,  "duration": 0.8} ]}, 
+{"type" : "step_head_goto", "name" : "head_back_1", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+{"type" : "step_grip_close", "name" : "grip_close_3", "goal" : [40.0]},
+{"type" : "step_grip_open", "name" : "grip_open_3", "goal" : [50.0]} ,
+{"type" : "step_face_animate", "name" : "eyes_end_heart_1", "goal" : ["#complete_and_happy"]}] } }

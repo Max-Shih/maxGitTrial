@@ -1,0 +1,35 @@
+{ "type": "do_rap_step", "step": {"type" : "step_run_seq", "name" : "show_up", "goal" : [
+{"type" : "step_face_animate", "name" : "eyes_init_blink", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_arm_goto", "name" : "hand_init_up", "goal" : [{"ss": 0.225, "sy":0.0, "sr": 0.0, "es": 1.445, "er": 0.0, "ws":0.0, "wr": 0.0, "tr":0.0, "duration": 3.0} ]}, 
+{"type" : "step_base_goto_pos", "name" : "base_to_stage_center_1", "goal" : [1.0,0.0, {"theta": 1.57}]}, 
+{"type" : "step_face_animate", "name" : "eyes_init_working", "goal" : ["#working"]},
+
+{"type" : "step_arm_goto", "name" : "hand_right_1", "goal" : [{"ss": -0.114, "sy": -0.27, "sr": -1.45, "es": 1.45, "er": 0.0, "ws":0.433, "duration": 2.0} ]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_3", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_4", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_working_2", "goal" : ["#working"]},
+
+{"type" : "step_arm_goto", "name" : "hand_left_1", "goal" : [{"sy":0.0, "sr": -0.391, "duration": 2.0} ]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_1", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_2", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_working_1", "goal" : ["#working"]},
+
+{"type" : "step_arm_goto", "name" : "hand_right_2", "goal" : [{"sy": -0.27, "sr": -1.45, "es": 1.45, "er": 0.0, "ws":0.433, "duration": 2.0} ]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_7", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_8", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_working_4", "goal" : ["#working"]},
+
+{"type" : "step_arm_goto", "name" : "hand_left_2", "goal" : [{"sy":0.0, "sr": -0.391, "duration": 2.0} ]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_5", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_blink_6", "goal" : ["#blink_of_an_eye"]}, 
+{"type" : "step_face_animate", "name" : "eyes_working_3", "goal" : ["#working"]},
+
+{"type" : "step_arm_goto", "name" : "hand_back_to_origin", "goal" : [{"ss": 0.225, "sy":0.0, "sr": 0.0, "es": 1.445, "er": 0.0, "ws":0.0, "wr": 0.0, "tr":0.0, "duration": 2.0} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_thinking_1", "goal" : ["#thinking"]}, 
+{"type" : "step_head_goto", "name" : "head_down_1", "goal" : [{"tilt": 0.6, "pan": 0.0,  "duration": 0.8} ]}, 
+{"type" : "step_head_goto", "name" : "head_back_1", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+{"type" : "step_face_animate", "name" : "eyes_thinking_2", "goal" : ["#thinking"]}, 
+{"type" : "step_face_animate", "name" : "eyes_thinking_3", "goal" : ["#thinking"]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_end_heart_1", "goal" : ["#complete_and_happy"]}] } }

@@ -1,0 +1,11 @@
+{ "type": "do_rap_step", "step": {"type" : "step_run_seq", "name" : "grab_coke_mock", "goal" : [
+{"type" : "step_arm_goto", "name" : "walk_init", "goal" : [{"ss": -0.29, "sy": 0.0, "sr": 0.0, "es": 1.35, "er": 0.0, "ws": 0.0, "wr": 0.0, "tr": 0.0, "duration": 4.0} ]},
+{"type" : "step_base_goto_pos", "name" : "goto_kitchen", "goal" : [0.56,-0.65, {"theta": 3.8}]}, 
+{"type" : "step_grip_open", "name" : "grip_open_before_coke", "goal" : [30.0]},
+{"type" : "step_arm_goto", "name" : "arm_2_1", "goal" : [{"ss": -0.18, "sy": 0.0, "sr": 0.0, "es": 0.135, "er": 0.0, "ws": 0.0, "wr": 0.0, "tr": 0.0, "duration": 4.0} ]}, 
+{"type" : "step_grip_close", "name" : "grp_close_after_coke", "goal" : [30.0]},
+{"type" : "step_base_goto_pos", "name" : "goto_center", "goal" : [1.8,-0.25, {"theta": 1.57}]},
+{"type" : "step_arm_goto", "name" : "arm_3", "goal" : [{"ss": -0.35, "sy": 0.0, "sr": 0.0, "es": 0.85, "er": 0.0, "ws": 0.0, "wr": 0.0, "tr": 0.0, "duration": 4.0} ]}, 
+{"type" : "step_grip_open", "name" : "grip_open_drop_coke", "goal" : [30.0]},
+{"type" : "step_arm_goto", "name" : "arm_4", "goal" : [{"ss": -0.29, "sy": 0.0, "sr": 0.0, "es": 0.135, "er": 0.0, "ws": 0.0, "wr": 0.0, "tr": 0.0, "duration": 4.0} ]},
+{"type" : "step_face_animate", "name" : "eyes_end_heart_1", "goal" : ["#complete_and_happy"]}] } }

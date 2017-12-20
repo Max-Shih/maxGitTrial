@@ -1,0 +1,1 @@
+{ "type": "do_rap_step", "step": {"type" : "step_base_goto_pos", "name" : "goto_living_room", "goal" : [4.0,-0.5, {"theta": -1.57}]} }

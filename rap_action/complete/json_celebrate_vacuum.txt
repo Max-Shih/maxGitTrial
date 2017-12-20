@@ -1,0 +1,53 @@
+{ "type": "do_rap_step", "step": {"type" : "step_run_seq", "name" : "vaccum_celebrate", "goal" : [
+
+{"type" : "step_head_goto", "name" : "head_origin_init", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_init_blink_1", "goal" : ["#blink_of_an_eye"]}, 
+
+{"type" : "step_head_goto", "name" : "head_1", "goal" : [{"tilt": -0.6, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_1", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]},
+
+{"type" : "step_face_animate", "name" : "eyes_working", "goal" : ["#working"]},
+
+{"type" : "step_head_goto", "name" : "head_2", "goal" : [{"tilt": 0.6, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_2", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_thinking", "goal" : ["#thinking"]}, 
+
+{"type" : "step_head_goto", "name" : "head_3", "goal" : [{"tilt": 0.0, "pan": -0.6,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_3", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_upset", "goal" : ["#upset"]}, 
+
+{"type" : "step_head_goto", "name" : "head_4", "goal" : [{"tilt": 0.0, "pan": 0.6,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_4", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_init_blink_2", "goal" : ["#blink_of_an_eye"]}, 
+
+{"type" : "step_head_goto", "name" : "head_5", "goal" : [{"tilt": -0.6, "pan": -0.6,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_5", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]},
+
+{"type" : "step_face_animate", "name" : "eyes_angry", "goal" : ["#angry"]},
+
+{"type" : "step_head_goto", "name" : "head_6", "goal" : [{"tilt": 0.6, "pan": -0.6,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_6", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_study", "goal" : ["#study_hard"]}, 
+
+{"type" : "step_head_goto", "name" : "head_7", "goal" : [{"tilt": 0.6, "pan": 0.6,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_7", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_start", "goal" : ["#start_the_robot"]}, 
+
+{"type" : "step_head_goto", "name" : "head_8", "goal" : [{"tilt": -0.6, "pan": 0.6,  "duration": 0.8} ]}, 
+
+{"type" : "step_head_goto", "name" : "head_origin_end", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8} ]}, 
+
+{"type" : "step_face_animate", "name" : "eyes_end_heart", "goal" : ["#complete_and_happy"]}] } }

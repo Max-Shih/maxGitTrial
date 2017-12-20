@@ -1,0 +1,38 @@
+{ "type": "do_rap_step", "step": {"type" : "step_run_seq","name" : "Edward_Motion","goal" : [
+{"type" : "step_head_goto", "name" : "Head_Back", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8}]},
+
+{"type" : "step_face_animate", "name" : "Edward_Start", "goal" : ["#thinking"]},
+
+{"type" : "step_head_goto", "name" : "Look_down_before_close", "goal" : [{"tilt": 0.7, "pan": 0.0,  "duration": 0.8}]},
+
+{"type" : "step_arm_goto", "name" : "Close_Fork_1", "goal" : [{"ss": 0.0, "sy": 0.0, "sr": 0.0, "es": 0.0, "er": 0.0, "ws": 0.0, "wr": 0.0, "tz": 0.15, "tr": 0.0, "duration": 4.0} ]}, 
+
+{"type" : "step_arm_goto", "name" : "Close_Fork_2", "goal" : [{"ss": -0.06, "sy": -0.151, "sr": 0.318, "es": 1.56, "er": -1.332, "ws": 1.45, "wr": -0.324, "tz": 0.15, "tr": 0.0, "duration": 4.0} ]}, 
+
+{"type" : "step_arm_goto", "name" : "Close_Fork_3", "goal" : [{"ss": -0.03, "sy": -0.151, "sr": 0.318, "es": 1.592, "er": -1.13, "ws": 1.45, "wr": -0.324, "tz": 0.15, "tr": 0.0, "duration": 4.0} ]},
+ 
+{"type" : "step_arm_goto", "name" : "Close_Fork_4", "goal" : [{"ss": 0.0, "sy": -0.151, "sr": 0.318, "es": 0.015, "er": 0.0, "ws": 1.519, "wr": -0.324, "tz": 0.15, "tr": 0.0, "duration": 4.0} ]},
+
+{"type" : "step_head_goto", "name" : "Look_forward_before_open", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 0.8}]},
+
+{"type" : "step_head_goto", "name" : "Look_down_before_open", "goal" : [{"tilt": 0.7, "pan": 0.0,  "duration": 0.8}]},
+
+{"type" : "step_arm_goto", "name" : "Open_fork_1", "goal" : [{"ss": 0.360, "sy": -0.2, "sr": 0.002, "es": 1.313, "er": -1.310, "ws": 1.070, "wr": -0.003, "tz": 0.15, "tr": 0.0, "duration": 2.0} ]},
+{"type" : "step_arm_goto", "name" : "Open_fork_2", "goal" : [{"ss": 0.360, "sy": -0.2, "sr": 0.002, "es": 1.313, "er": -1.310, "ws": 1.276, "wr": -0.003, "tz": 0.15, "tr": 0.0, "duration": 2.0} ]},
+{"type" : "step_arm_goto", "name" : "Open_fork_3", "goal" : [{"ss": 0.360, "sy": -0.2, "sr": 0.002, "es": 1.313, "er": -1.310, "ws": 1.276, "wr": 1.412, "tz": 0.15, "tr": 0.0, "duration": 2.0} ]},
+
+{"type" : "step_arm_goto", "name" : "Open_fork_4", "goal" : [{"ss": 0.207, "sy": -0.2, "sr": 0.002, "es": 1.427, "er": -1.428, "ws": 1.428, "wr": 1.455, "tz": 0.15, "tr": 0.0, "duration": 2.0} ]},
+
+{"type" : "step_head_goto", "name" : "Turn_left_1", "goal" : [{"tilt": 0.0, "pan": -0.5,  "duration": 0.8}]},
+
+{"type" : "step_head_goto", "name" : "Turn_left_2", "goal" : [{"tilt": -0.5, "pan": -0.5,  "duration": 0.8}]},
+
+{"type" : "step_head_goto", "name" : "Turn_left_3", "goal" : [{"tilt": 0.0, "pan": -0.5,  "duration": 0.8}]},
+
+{"type" : "step_face_animate", "name" : "Edward_Ending", "goal" : ["#angry"]},
+
+{"type" : "step_arm_goto", "name" : "arm_fold_torso_up", "goal" : [{"ss": -0.29, "sy": 0.0, "sr": 0.0, "es": 1.35, "er": 0.0, "ws": 0.0, "wr": 0.0, "tz": 0.15, "tr": 0.0, "duration": 10.0} ]},
+{"type" : "step_head_goto", "name" : "head_init_to_origin", "goal" : [{"tilt": 0.0, "pan": 0.7,  "duration": 1.5} ]},
+{"type" : "step_base_goto_pos", "name" : "base_init_to_origin", "goal" : [0.0,0.0,{"theta": 3.14}]},
+
+{"type" : "step_face_animate", "name" : "eyes_init_start_1", "goal" : ["#start_the_robot"]}]}}

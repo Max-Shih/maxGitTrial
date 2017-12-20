@@ -1,0 +1,6 @@
+{ "type": "do_rap_step", "step": {"type" : "step_run_seq", "name" : "init_walk_pose", "goal" : [
+{"type" : "step_arm_goto", "name" : "arm_fold_torso_up", "goal" : [{"ss": -0.29, "sy": 0.0, "sr": 0.0, "es": 1.35, "er": 0.0, "ws": 0.0, "wr": 0.0, "tz": 0.20, "tr": 0.0, "duration": 10.0} ]}, 
+{"type" : "step_base_goto_pos", "name" : "base_init_to_origin", "goal" : [0.0,0.0,{"theta": 0.0}]},
+{"type" : "step_head_goto", "name" : "head_init_to_origin", "goal" : [{"tilt": 0.0, "pan": 0.0,  "duration": 1.0} ]}, 
+{"type" : "step_face_animate", "name" : "eyes_init_start_1", "goal" : ["#start_the_robot"]}
+] } }
